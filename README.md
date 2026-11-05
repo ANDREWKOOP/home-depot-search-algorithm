@@ -1,12 +1,8 @@
-# Nailing Search Relevance
-
 ### Home Depot search relevance analysis with NLP
 
 A team project exploring how product titles, descriptions, and attributes relate to the relevance of Home Depot search results. Using the dataset from Kaggle's **Home Depot Product Search Relevance** competition, we studied differences across product departments and developed recommendations for product listing content.
 
-![Nailing Search Relevance — team presentation cover](project-cover.png)
-
-**Team #3:** Josh Paulson, Sathvik Chatta, Ryder Fuscellaro, Andrew Kutsch, and Katie Shapiro
+Josh Paulson, Sathvik Chatta, Ryder Fuscellaro, Andrew Kutsch, and Katie Shapiro
 
 **Presentation date:** October 16, 2026
 
