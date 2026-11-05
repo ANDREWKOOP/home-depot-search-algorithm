@@ -6,7 +6,7 @@ Josh Paulson, Sathvik Chatta, Ryder Fuscellaro, Andrew Kutsch, and Katie Shapiro
 
 **Presentation date:** October 16, 2026
 
-[Explore the notebook](home_depot_search_relevance.ipynb) · [Download the presentation](NLP_Final_Presentation.pptx) · [Kaggle competition and data](https://www.kaggle.com/c/home-depot-product-search-relevance)
+[Explore the notebook](home_depot_search_relevance.ipynb) · [Kaggle competition and data](https://www.kaggle.com/c/home-depot-product-search-relevance)
 
 ## Project overview
 
