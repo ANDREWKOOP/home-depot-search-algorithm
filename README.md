@@ -4,13 +4,13 @@
 
 A team project exploring how product titles, descriptions, and attributes relate to the relevance of Home Depot search results. Using the dataset from Kaggle's **Home Depot Product Search Relevance** competition, we studied differences across product departments and developed recommendations for product listing content.
 
-![Nailing Search Relevance — team presentation cover](docs/images/project-cover.png)
+![Nailing Search Relevance — team presentation cover](project-cover.png)
 
 **Team #3:** Josh Paulson, Sathvik Chatta, Ryder Fuscellaro, Andrew Kutsch, and Katie Shapiro
 
 **Presentation date:** October 16, 2026
 
-[Explore the notebook](notebooks/home_depot_search_relevance.ipynb) · [Download the presentation](presentation/NLP_Final_Presentation.pptx) · [Kaggle competition and data](https://www.kaggle.com/c/home-depot-product-search-relevance)
+[Explore the notebook](home_depot_search_relevance.ipynb) · [Download the presentation](NLP_Final_Presentation.pptx) · [Kaggle competition and data](https://www.kaggle.com/c/home-depot-product-search-relevance)
 
 ## Project overview
 
@@ -35,7 +35,7 @@ We asked:
 
 The notebook defines 25 continuous features for its main department analysis and includes additional exploratory diagnostics and charts.
 
-![Feature families examined in the team's analysis — presentation slide 11](docs/images/feature-engineering.png)
+![Feature families examined in the team's analysis — presentation slide 11](feature-engineering.png)
 
 ## Findings from the presentation
 
@@ -49,15 +49,15 @@ The team's central recommendation was to tailor product content by department ra
 
 ### Description sentiment varies by department
 
-![VADER sentiment comparison for Appliances and Home Electronics — presentation slide 14](docs/images/sentiment-comparison.png)
+![VADER sentiment comparison for Appliances and Home Electronics — presentation slide 14](sentiment-comparison.png)
 
 ### Description length and relevance
 
-![Description length comparison from the team's presentation — slide 21](docs/images/description-length.png)
+![Description length comparison from the team's presentation — slide 21](description-length.png)
 
 ### Department recommendations
 
-![The team's recommendation summary — presentation slide 24](docs/images/recommendations.png)
+![The team's recommendation summary — presentation slide 24](recommendations.png)
 
 **Interpretation:** These are observational relationships and recommendations from the original project. They do not establish that editing a listing causes an improvement in search relevance. The presentation's headline **19.3%** improvement claim is retained in the original deck; a controlled experiment or independently verified uplift calculation is not supplied here. Department labels also differ between some slide wording and notebook categories, so consult the code when reproducing a department analysis.
 
@@ -65,13 +65,14 @@ The team's central recommendation was to tailor product content by department ra
 
 ```text
 .
-├── notebooks/
-│   └── home_depot_search_relevance.ipynb  # Original team analysis
-├── presentation/
-│   └── NLP_Final_Presentation.pptx       # Original presentation (33 slides)
-├── docs/
-│   ├── assignment_brief.html            # Course assignment, for context
-│   └── images/                          # Slide exports used in this README
+├── home_depot_search_relevance.ipynb  # Original team analysis
+├── NLP_Final_Presentation.pptx       # Original presentation (33 slides)
+├── assignment_brief.html            # Course assignment, for context
+├── project-cover.png                # Presentation slide 1
+├── feature-engineering.png          # Presentation slide 11
+├── sentiment-comparison.png         # Presentation slide 14
+├── description-length.png           # Presentation slide 21
+├── recommendations.png              # Presentation slide 24
 ├── requirements.txt
 └── .gitignore
 ```
@@ -122,7 +123,7 @@ Replace each path with the location of its CSV file. When starting Jupyter from 
 ### 4. Open and run
 
 ```bash
-jupyter lab notebooks/home_depot_search_relevance.ipynb
+jupyter lab home_depot_search_relevance.ipynb
 ```
 
 Run cells in order. Feature extraction and department classification can take time on the full dataset. Some later exploratory cells assume specific department names or numeric feature columns and may need adjustment for the current dataframe. The full analysis has not been rerun as part of preparing this repository because the competition CSV files were not supplied.
@@ -132,7 +133,7 @@ Run cells in order. Feature extraction and department classification can take ti
 Created jointly by **Josh Paulson, Sathvik Chatta, Ryder Fuscellaro, Andrew Kutsch, and Katie Shapiro**. This repository presents the team's shared work and does not assign individual ownership of specific components.
 
 - **Dataset and competition:** [Home Depot Product Search Relevance on Kaggle](https://www.kaggle.com/c/home-depot-product-search-relevance).
-- **Project context:** [Original course assignment brief](docs/assignment_brief.html).
+- **Project context:** [Original course assignment brief](assignment_brief.html).
 - **Presentation:** The original deck includes its source citations and template attribution. Those are preserved in the supplied PowerPoint.
 
 This is an academic project using Home Depot competition data. It is not an official Home Depot product or service. Dataset and third-party presentation assets remain subject to their respective terms. No additional software license has been assigned to the team's work in this upload.
