@@ -1,0 +1,5 @@
+# Preserve the supplied notebook, assignment, and presentation byte for byte.
+*.ipynb -text
+*.html -text
+*.pptx -text
+*.png -text

@@ -1,0 +1,11 @@
+# Imports used by the original notebook; versions were not supplied.
+numpy
+pandas
+scipy
+scikit-learn
+nltk
+spacy
+matplotlib
+seaborn
+jupyterlab
+ipykernel
